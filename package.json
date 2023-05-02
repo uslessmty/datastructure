@@ -1,4 +1,7 @@
 {
+  "name": "@white-box/datastructure",
+  "version": "0.0.1",
+  "author": "Tengyu",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
