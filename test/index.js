@@ -1,21 +1,19 @@
-const {DoubleLinkedList, HashTable} = require('../lib');
+const {DoubleLinkedList, HashTable, Heap} = require('../lib');
 
-const table = new HashTable(32, value => value);
+const table = new Heap();
 
-table.add(1);
-table.add(1);
-table.add(1);
-table.add(1);
-table.add(1);
-table.add(1);
-table.add(1);
-table.add(1);
+table.add(100);
 table.add(1);
 table.add(2);
-
-table.delete(2);
-table.delete(2);
-
-table.forceExpansion();
+table.add(7);
+table.add(25);
+table.add(3);
+table.add(19);
+table.add(36);
+table.add(17);
+table.add(1)
+table.add(1)
+table.add(1)
+table.remove(1)
 
 console.log(table);
